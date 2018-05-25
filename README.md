@@ -13,6 +13,5 @@ and training the NN on more detailed representations.
 The code for parsing the MIDI files came from [this guy](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5),
 and I have changed the code a little to suit my needs. 
 
-For instance, I do not need a one-hot-vector for classifying correct class in a autoencoder. So I've reduced his code.
-
-I will continue working on representing the duration and velocity of the notes and chords.
+Firstly, I do not need a one-hot-vector for classifying correct class in a autoencoder. So I've reduced his code.
+And secondly, I've added the option of adding note rests in the dataset. A note rest is denoted as an epmty string.
